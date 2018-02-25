@@ -1,0 +1,28 @@
+{
+  "name": "osa5_teht_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon index.js",
+    "test": "cross-env NODE_ENV=test jest --verbose",
+    "koe": "cross-env NODE_ENV=test node mongo.js"
+  },
+  "author": "Tuula Summanen",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^5.0.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "cross-env": "^5.1.3",
+    "eslint": "^4.18.0",
+    "jest": "^22.4.0",
+    "nodemon": "^1.15.1",
+    "supertest": "^3.0.0"
+  }
+}
